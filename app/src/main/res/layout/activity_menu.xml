@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/scheduleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Schedule" />
+
+    <Button
+        android:id="@+id/editAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Your Account" />
+
+    <Button
+        android:id="@+id/eventBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Event" />
+
+    <Button
+        android:id="@+id/alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activate Alarm" />
+
+    <Button
+        android:id="@+id/dataTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Data" />
+
+    <Button
+        android:id="@+id/addAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Activity" />
+
+    <Button
+        android:text="show my location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location" />
+
+    <Button
+        android:text="show location of anywhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/findAdressLocation" />
+
+    <Button
+        android:text="Find Distance Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/findDistTime" />
+
+</LinearLayout>

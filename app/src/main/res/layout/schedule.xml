@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/eventTitle" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bRegister"
+            android:background="#CF446F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:text="Enter Title"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#CF446F" />
+        <DatePicker
+            android:id="@+id/dp"
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_below="@id/tv"/>
+        <Button
+            android:id="@+id/dateButton"
+            android:background="#cf6444"
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date of Event"
+            android:layout_below="@id/dp" />
+
+        <!-- Signup Button -->
+
+
+    </LinearLayout>
+</ScrollView>
